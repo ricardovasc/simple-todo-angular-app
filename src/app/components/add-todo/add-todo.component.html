@@ -1,9 +1,9 @@
 <mat-card>
     <mat-card-content>
         <mat-form-field appearance="fill">
-            <mat-label>New To-Do</mat-label>
+            <mat-label>Nova Tarefa</mat-label>
             <input matInput [(ngModel)]="newTodoDescription" (keyup.enter)="onAddTodo()">
         </mat-form-field>
-        <button mat-raised-button color="primary" (click)="onAddTodo()">Add</button>
+        <button mat-raised-button color="primary" (click)="onAddTodo()">Adicionar</button>
     </mat-card-content>
 </mat-card>

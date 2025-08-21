@@ -1,7 +1,7 @@
 <div class="todo-container">
     <app-add-todo (addTodo)="onAddTodo($event)"></app-add-todo>
     <mat-card>
-        <mat-card-title>To-Do List</mat-card-title>
+        <mat-card-title>Lista de Tarefas</mat-card-title>
         <mat-card-content>
             <mat-list>
                 <app-todo-item *ngFor="let todo of todos" 
