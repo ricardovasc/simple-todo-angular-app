@@ -1,5 +1,7 @@
-main {
-  display: flex;
+.centered-toolbar {
   justify-content: center;
+}
+
+main {
   padding: 2rem;
 }

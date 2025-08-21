@@ -1,7 +1,15 @@
 mat-card {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem; /* Aumentado para dar mais espaço */
+}
+
+.add-todo-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem; /* Adiciona um espaço entre o input e o botão */
 }
 
 mat-form-field {
     width: 100%;
+    max-width: 500px; /* Limita a largura em telas grandes */
 }
