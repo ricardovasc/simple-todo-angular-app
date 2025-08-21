@@ -1,0 +1,11 @@
+<mat-list-item [class.completed]="todo?.completed">
+    <span matListItemTitle>{{ todo?.description }}</span>
+    <div matListItemMeta>
+        <button mat-icon-button color="primary" (click)="onComplete()" [disabled]="todo?.completed">
+            <mat-icon>check</mat-icon>
+        </button>
+        <button mat-icon-button color="warn" (click)="onDelete()">
+            <mat-icon>delete</mat-icon>
+        </button>
+    </div>
+</mat-list-item>

@@ -1,0 +1,8 @@
+.completed {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+mat-list-item {
+    border-bottom: 1px solid #eee;
+}
